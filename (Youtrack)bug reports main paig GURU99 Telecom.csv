@@ -1,0 +1,186 @@
+﻿"Issue Id","Project","Tags","Summary","Reporter","Created","Updated","Resolved","Priority","Type","State","Assignee","Sprints","Story points","Environment","QASE TC # (only for bug)","Description","Votes"
+"G21-93","group2.1","Star","Add Customer: После ввода кириллицы, цифр и спецсимволов в поле ""Enter your address"", появляется сообщение ""Special characters are not allowed""","Nicholas","7 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.88""","No no qase tc # (only for bug)","Pre-conditions:
+
+Необходимо находится на странице ""Add Customer""
+
+STR:
+
+1. Нажать на кнопку ""Add Customer""
+2. Ввести цифры, кириллицу и спецсимволы в поле ""Enter your address""
+
+ACT: Появляется сообщение ""Numbers, Cyrillic and special characters are not allowed""
+
+EXP: Появляется сообщение ""Special characters are not allowed""","0"
+"G21-24","group2.1","Star","Add Customer: После ввода цифр, кириллицы и спецсимволов в поле ""Lastname"", появляется сообщение ""Special characters are not allowed""","Nicholas","6 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.88""","No no qase tc # (only for bug)","Pre-conditions:
+
+Необходимо находится на странице ""Add Customer""
+
+STR:
+
+1. Нажать на кнопку ""Add Customer""
+2. Ввести цифры, кириллицу и спецсимволы в поле ""LastName""
+
+ACT: Появляется сообщение ""Numbers, Cyrillic and special characters are not allowed""
+
+EXP: Появляется сообщение ""Special characters are not allowed""","0"
+"G21-23","group2.1","Star","Add Customer: После ввода цифр, кириллицы и спецсимволов в поле ""Firstname"", появляется сообщение ""Special characters are not allowed""","Nicholas","6 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.88""","No no qase tc # (only for bug)","Pre-conditions:
+
+Необходимо находится на странице ""Add Customer""
+
+STR:
+
+1. Нажать на кнопку ""Add Customer""
+2. Ввести цифры, кириллицу и спецсимволы в поле ""FirstName""
+
+ACT: Появляется сообщение ""Numbers, Cyrillic and special characters are not allowed""
+
+EXP: Появляется сообщение ""Special characters are not allowed""","0"
+"G21-21","group2.1","Star","Add Customer: После ввода букв, цифр и спецсимволов в поле ""Email"", появляется сообщение ""Email-ID is not valid""","Nicholas","6 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.88""","No no qase tc # (only for bug)","Pre-conditions:
+
+Необходимо находится на странице ""Add Customer""
+
+STR:
+
+1. Нажать на кнопку ""Add Customer""
+2. Ввести буквы, цифры, спецсимволы в поле ""Email""
+
+ACT: Появляется сообщение ""Email is not valid""
+
+EXP: Появляется сообщение ""Email-ID is not valid""","0"
+"G21-20","group2.1","Star","Add Customer: Оставив поле ""Email"" пустым, появляется сообщение ""Email-ID must not be blank""","Nicholas","6 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.88""","No no qase tc # (only for bug)","Pre-conditions:
+
+Необходимо находится на странице ""Add Customer""
+
+STR:
+
+1. Нажать на кнопку ""Add Customer""
+2. Нажать на поле ""FirstName""
+3. Нажать на другое поле
+
+ACT: Появляется сообщение ""Email is not valid""
+
+EXP: Появляется сообщение ""Email-ID must not be blank""","0"
+"G21-15","group2.1","Star","Add Customer: Оставив поле ""FirstName"" пустым, появляется сообщение ""Customer name must not be blank""","Nicholas","6 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.88""","No no qase tc # (only for bug)","Pre-conditions:
+
+Необходимо находится на странице ""Add Customer""
+
+STR:
+
+1. Нажать на кнопку ""Add Customer""
+2. Нажать на поле ""FirstName""
+3. Нажать на другое поле
+
+ACT: Появляется сообщение ""First Name must not be blank""
+
+EXP: Появляется сообщение ""Customer name must not be blank""","0"
+"G21-18","group2.1","Star","Add Customer: После ввода кириллицы в поле ""LastName"", появляется сообщение ""Numbers are not allowed""","Nicholas","6 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.88""","No no qase tc # (only for bug)","Pre-conditions:
+
+Необходимо находится на странице ""Add Customer""
+
+STR:
+
+1. Нажать на кнопку ""Add Customer""
+2. Ввести кириллицу в поле ""LastName""
+
+ACT: Появляется сообщение ""Cyrillic are not allowed""
+
+EXP: Появляется сообщение ""Numbers are not allowed""","0"
+"G21-19","group2.1","Star","Add Customer: Оставив поле ""LastName"" пустым, появляется сообщение ""Customer name must not be blank""","Nicholas","6 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.88""","No no qase tc # (only for bug)","Pre-conditions:
+
+Необходимо находится на странице ""Add Customer""
+
+STR:
+
+1. Нажать на кнопку ""Add Customer""
+2. Нажать на поле ""FirstName""
+3. Нажать на другое поле
+
+ACT: Появляется сообщение ""First Name must not be blank""
+
+EXP: Появляется сообщение ""Customer name must not be blank""","0"
+"G21-22","group2.1","Star","Add Customer: После ввода спецсимвола ""@"" в количестве больше одного в поле ""Email"", появляется сообщение ""Email-ID is not valid""","Nicholas","6 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.88""","No no qase tc # (only for bug)","Pre-conditions:
+
+Необходимо находится на странице ""Add Customer""
+
+STR:
+
+1. Нажать на кнопку ""Add Customer""
+2. Ввести два спецсимвола ""@"" в поле ""Email""
+
+ACT: Появляется сообщение ""Email is not valid""
+
+EXP: Появляется сообщение ""Email-ID is not valid""","0"
+"G21-16","group2.1","","Add Customer: После ввода кириллицы  в поле ""Enter your address"", никаких сообщений не появляется","Nicholas","6 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.88""","No no qase tc # (only for bug)","Pre-conditions:
+
+Необходимо находится на странице ""Add Customer""
+
+STR:
+
+1. Нажать на кнопку ""Add Customer""
+2. Ввести кириллицу в поле ""Enter your address""
+
+ACT: Появляется сообщение ""Cyrillic are not allowed""
+
+EXP: Никаких сообщений не появляется","0"
+"G21-17","group2.1","Star","Add Customer: После ввода кириллицы и спецсимволов в поле ""Enter your address"", появляется сообщение ""Special characters are not allowed""","Nicholas","6 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.88""","No no qase tc # (only for bug)","Pre-conditions:
+
+Необходимо находится на странице ""Add Customer""
+
+STR:
+
+1. Нажать на кнопку ""Add Customer""
+2. Ввести кириллицу и спецсимволы в поле ""Enter your address""
+
+ACT: Появляется сообщение ""Cyrillic and special characters are not allowed""
+
+EXP: Появляется сообщение ""Special characters are not allowed""","0"
+"G21-29","group2.1","Star","Add Customer: После ввода букв и спецсимволов в поле ""Mobile Number"", появляется сообщение ""Special characters are not allowed""","Nicholas","6 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.88""","No no qase tc # (only for bug)","Pre-conditions:
+
+Необходимо находится на странице ""Add Customer""
+
+STR:
+
+1. Нажать на кнопку ""Add Customer""
+2. Ввести буквы и спецсимволы в поле ""Mobile Number""
+
+ACT: Появляется сообщение ""Letters and special characters are not allowed""
+
+EXP: Появляется сообщение ""Special characters are not allowed""","0"
+"G21-27","group2.1","Star","Add Customer: Оставив поле ""Enter your address"" пустым, появляется сообщение ""Address Field must not be blank""","Nicholas","6 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.88""","No no qase tc # (only for bug)","Pre-conditions:
+
+Необходимо находится на странице ""Add Customer""
+
+STR:
+
+1. Нажать на кнопку ""Add Customer""
+2. Нажать на поле ""Enter your address""
+3. Нажать на другое поле
+
+ACT: Появляется сообщение ""Address must not be blank""
+
+EXP: Появляется сообщение ""Address Field must not be blank""","0"
+"G21-26","group2.1","Star","Add Customer: Оставив поле ""Mobile Number"" пустым, появляется сообщение ""Mobile no must not be blank""","Nicholas","6 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.88""","No no qase tc # (only for bug)","Pre-conditions:
+
+Необходимо находится на странице ""Add Customer""
+
+STR:
+
+1. Нажать на кнопку ""Add Customer""
+2. Нажать на поле ""Mobile Number""
+3. Нажать на другое поле
+
+ACT: Появляется сообщение ""Mobile must not be blank""
+
+EXP: Появляется сообщение ""Mobile no must not be blank""","0"
+"G21-14","group2.1","Star","Add Customer: После ввода кириллицы в поле ""FirstName"", появляется сообщение ""Numbers are not allowed""","Nicholas","6 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.88""","No no qase tc # (only for bug)","Pre-conditions:
+
+Необходимо находится на странице ""Add Customer""
+
+STR:
+
+1. Нажать на кнопку ""Add Customer""
+2. Ввести кириллицу в поле ""FirstName""
+
+ACT: Появляется сообщение ""Cyrillic are not allowed""
+
+EXP: Появляется сообщение ""Numbers are not allowed""","0"
