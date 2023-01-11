@@ -1,0 +1,115 @@
+﻿"Issue Id","Project","Tags","Summary","Reporter","Created","Updated","Resolved","Priority","Type","State","Assignee","Sprints","Story points","Environment","QASE TC # (only for bug)","Description","Votes"
+"G21-125","group2.1","Star","Shopping cart:  Кнопка ""Условия использования(read)"" перенаправляет на страницу с условиями","Nicholas","22 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.107""","No no qase tc # (only for bug)","Pre-conditions:
+
+Пользователь должен быть зарегистрирован. Необходимо находиться в разделе ""Shopping cart""
+
+STR:
+
+1. Нажать на ссылку ""read""
+
+ACT: Откроется страница с условиями
+
+EXP: Открывается страница с  без условий","0"
+"G21-133","group2.1","Star","Payment module: Принимает оплату при помощи украденной карты VISA","Nicholas","23 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Bug","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.107""","No no qase tc # (only for bug)","Pre-conditions:
+
+Товар находится в корзине, пользователь зарегистрирован, согласился с условиями оплаты, находится на 5 пункте ""Payment Information"" в ""Payment module"" , оплата при помощи credit card
+
+STR:
+
+1. В ""Select credit card"" выбрать ""VISA""
+2. В ""Cardholder name"" ввести имя ""TEST""
+3. В ""Card number"" ввести номер ""4486441729154030""
+4. В ""Expiration date"" выбрать дату ""12/2025
+5. В ""Card code"" ввести код ""123""
+6. Нажать на кнопку ""Continue""
+7. Нажать на кнопку ""Confirm""
+
+ACT: Выдаст ошибку ""Pick up. Stolen card"". Код состояния JS 483
+
+EXP: Выдает сообщение ""Your order has been successfully processed!"". Код состояния JS 200","0"
+"G21-138","group2.1","Star","Shopping cart: Указав пункт назначения, рассчитывается стоимость доставки","Nicholas","24 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Task","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.107""","No no qase tc # (only for bug)","Pre-conditions:
+
+Пользователь зарегистрирован, находится на странице ""Shopping cart"", товар находится в корзине
+
+STR:
+
+1. Указать Country ""Russia""
+2. Ввести Zip / postal code ""660000""
+3. Нажать на кнопку ""Estimate shipping""
+
+ACT: Отобразятся способы доставки с рассчитанной стоимостью
+
+EXP: Отображаются способы доставки без рассчитанной стоимости","0"
+"G21-134","group2.1","Star","Payment module: Принимает оплату при помощи карты с недостаточными средствами VISA","Nicholas","23 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Task","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.107""","No no qase tc # (only for bug)","Pre-conditions:
+
+Товар находится в корзине, пользователь зарегистрирован, согласился с условиями оплаты, находится на 5 пункте ""Payment Information"" в ""Payment module"" , оплата при помощи credit card
+
+STR:
+
+1. В ""Select credit card"" выбрать ""VISA""
+2. В ""Cardholder name"" ввести имя ""TEST""
+3. В ""Card number"" ввести номер ""4024007123874108""
+4. В ""Expiration date"" выбрать дату ""12/2025
+5. В ""Card code"" ввести код ""123""
+6. Нажать на кнопку ""Continue""
+7. Нажать на кнопку ""Confirm""
+
+ACT: Выдаст ошибку ""Insufficient funds"". Код состояния JS 484
+
+EXP: Выдает сообщение ""Your order has been successfully processed!"". Код состояния JS 200","0"
+"G21-135","group2.1","Star","Payment module: Принимает оплату при помощи карты VISA, с запретом проведения транзакции","Nicholas","23 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Task","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.107""","No no qase tc # (only for bug)","Pre-conditions:
+
+Товар находится в корзине, пользователь зарегистрирован, согласился с условиями оплаты, находится на 5 пункте ""Payment Information"" в ""Payment module"" , оплата при помощи credit card
+
+STR:
+
+1. В ""Select credit card"" выбрать ""VISA""
+2. В ""Cardholder name"" ввести имя ""TEST""
+3. В ""Card number"" ввести номер ""4750657776370372""
+4. В ""Expiration date"" выбрать дату ""12/2025
+5. В ""Card code"" ввести код ""123""
+6. Нажать на кнопку ""Continue""
+7. Нажать на кнопку ""Confirm""
+
+ACT: Выдаст ошибку ""Transaction not permitted to CH"". Код состояния JS 490
+
+EXP: Выдает сообщение ""Your order has been successfully processed!"". Код состояния JS 200","0"
+"G21-139","group2.1","Star","Payment module: При вводе цифр в поле ""FirstName"" не срабатывает валидация","Nicholas","24 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Task","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.107""","No no qase tc # (only for bug)","Pre-conditions:
+
+Товар находится в корзине, пользователь зарегистрирован, согласился с условиями оплаты, находится на 1 пункте ""Billing Address"" в ""Payment module""
+
+STR:
+
+1. Нажать на dropdown billing address select
+2. Выбрать ""New Address""
+3. Ввести цифры ""151""  в поле ""FirstName""
+
+ACT: Выдает сообщение ""Numbers are not allowed""
+
+EXP: Принимает значение","0"
+"G21-140","group2.1","Star","Payment module: При вводе спецсимволов в поле ""LastName"" не срабатывает валидация","Nicholas","24 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Task","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.107""","No no qase tc # (only for bug)","Pre-conditions:
+
+Товар находится в корзине, пользователь зарегистрирован, согласился с условиями оплаты, находится на 1 пункте ""Billing Address"" в ""Payment module""
+
+STR:
+
+1. Нажать на dropdown billing address select
+2. Выбрать ""New Address""
+3. Ввести спецсимволы  ""-@"" в поле ""LastName""
+
+ACT: Выдает сообщение ""Special characters are not allowed""
+
+EXP: Принимает значение","0"
+"G21-141","group2.1","Star","Payment module: При вводе букв в поле ""Zip / postal code"" не срабатывает валидация","Nicholas","24 Nov 2022","11 Jan 2023","11 Jan 2023","Normal","Task","Done","Unassigned","Unscheduled",,"""Windows 10 Version 21H2 Google Chrome107.0.5304.107""","No no qase tc # (only for bug)","Pre-conditions:
+
+Товар находится в корзине, пользователь зарегистрирован, согласился с условиями оплаты, находится на 1 пункте ""Billing Address"" в ""Payment module""
+
+STR:
+
+1. Нажать на dropdown billing address select
+2. Выбрать ""New Address""
+3. Ввести буквы ""Gfко"" в поле ""Zip / postal code""
+
+ACT: Выдает сообщение ""Letters are not allowed""
+
+EXP: Принимает значение","0"
